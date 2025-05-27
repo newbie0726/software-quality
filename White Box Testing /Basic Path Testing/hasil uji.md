@@ -48,3 +48,5 @@ Ada 4 jalur independen yang bisa diuji:
 - Sistem saat ini tampaknya tidak menampilkan notifikasi visual (alert) saat login gagal—ini bisa ditambahkan untuk meningkatkan UX.  
 
 - Tidak ada CAPTCHA → potensi brute-force attack bisa menjadi perhatian.  
+
+![](./bpath.png)
