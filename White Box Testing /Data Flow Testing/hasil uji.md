@@ -12,6 +12,9 @@ Komponen                             | Definisi                                 
 | Alert Check In Success               | Memberikan konfirmasi jika data berhasil disimpan      | Ditampilkan setelah pemesanan berhasil | Jika validasi berhasil, sistem menampilkan alert bahwa pemesanan sukses. |
 | Data Dikirim ke Admin                | Proses penyimpanan ke database untuk konfirmasi admin  | Setelah alert sukses                   | Data dikirim ke admin untuk dikonfirmasi di backend.                     |
 
+
+
+
 | Kode                                                                                                          | Penjelasan                                                                            |
 | ------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
 | `php<br><?php $this->load->view("tamu/head.php") ?><br><?php $this->load->view("tamu/navbar.php") ?>`         | Memuat bagian head dan navbar. Digunakan saat halaman info kamar dibuka pertama kali. |
