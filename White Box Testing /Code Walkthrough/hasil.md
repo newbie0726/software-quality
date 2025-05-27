@@ -1,13 +1,13 @@
 | Baris Kode | Potongan Kode                                                                 | Penjelasan Walkthrough                                                                                 |
 |------------|--------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 1–2        | <!DOCTYPE html> <html lang="en">                                              | Mendefinisikan tipe dokumen dan bahasa yang digunakan pada halaman adalah bahasa Inggris.              |
-| 9          | <title>SB Admin - Login</title>                                               | Judul halaman ditampilkan di tab browser.                                                              |
-| 20–21      | <body class="bg-dark">                                                        | Memulai bagian body halaman, dengan latar belakang warna gelap.                                        |
-| 23–25      | <div class="card card-login mx-auto mt-5">...</div>                           | Membuat elemen kartu (card) untuk form login yang diposisikan di tengah (margin x auto).               |
-| 27         | <form action="<?php echo base_url('login/aksi_login'); ?>" method="post">     | Form akan mengirim data ke controller login/aksi_login menggunakan metode POST.                        |
-| 29–32      | <input type="text" id="inputUsername" name="username_user"...>                | Input field untuk username. Nilainya akan dikirim dengan nama username_user.                           |
-| 33–36      | <input type="password" id="inputPassword" name="password_user"...>            | Input field untuk password. Nilainya akan dikirim dengan nama password_user.                           |
-| 38–42      | Checkbox "Remember Password"                                                  | Memberi opsi kepada user untuk mengingat password. Hanya visual, belum ada proses logic di backend.    |
-| 43         | <input class="btn btn-primary btn-block" type="submit" value="login">         | Tombol untuk mengirim form login. Jika ditekan, data username dan password dikirim ke server.          |
-| 46         | <a class="d-block small" href="...">Forgot Password?</a>                      | Link untuk menuju ke halaman lupa password.                                                            |
-| 49–51      | <script src="vendor/jquery/jquery.min.js"> dan lainnya                        | JavaScript tambahan dari jQuery dan Bootstrap untuk interaksi halaman (misal: animasi, validasi UI).   |
+| 1–2        | - <!DOCTYPE html> <html lang="en">                                              | Mendefinisikan tipe dokumen dan bahasa yang digunakan pada halaman adalah bahasa Inggris.              |
+| 9          | - <title>SB Admin - Login</title>                                               | Judul halaman ditampilkan di tab browser.                                                              |
+| 20–21      | - <body class="bg-dark">                                                        | Memulai bagian body halaman, dengan latar belakang warna gelap.                                        |
+| 23–25      | - <div class="card card-login mx-auto mt-5">...</div>                           | Membuat elemen kartu (card) untuk form login yang diposisikan di tengah (margin x auto).               |
+| 27         | - <form action="<?php echo base_url('login/aksi_login'); ?>" method="post">     | Form akan mengirim data ke controller login/aksi_login menggunakan metode POST.                        |
+| 29–32      | - <input type="text" id="inputUsername" name="username_user"...>                | Input field untuk username. Nilainya akan dikirim dengan nama username_user.                           |
+| 33–36      | - <input type="password" id="inputPassword" name="password_user"...>            | Input field untuk password. Nilainya akan dikirim dengan nama password_user.                           |
+| 38–42      | - Checkbox "Remember Password"                                                  | Memberi opsi kepada user untuk mengingat password. Hanya visual, belum ada proses logic di backend.    |
+| 43         | - <input class="btn btn-primary btn-block" type="submit" value="login">         | Tombol untuk mengirim form login. Jika ditekan, data username dan password dikirim ke server.          |
+| 46         | - <a class="d-block small" href="...">Forgot Password?</a>                      | Link untuk menuju ke halaman lupa password.                                                            |
+| 49–51      | - <script src="vendor/jquery/jquery.min.js"> dan lainnya                        | JavaScript tambahan dari jQuery dan Bootstrap untuk interaksi halaman (misal: animasi, validasi UI).   |
