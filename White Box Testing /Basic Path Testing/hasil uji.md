@@ -49,4 +49,4 @@ Ada 4 jalur independen yang bisa diuji:
 
 - Tidak ada CAPTCHA → potensi brute-force attack bisa menjadi perhatian.  
 
-![](./bpath.png)
+![bpath](./bpath.png)
