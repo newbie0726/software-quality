@@ -6,5 +6,5 @@
 | TC4       | Tlp: mengetik huruf                                                   | Tidak muncul di field (terfilter otomatis)              | ✅                |
 
 •	Field “Tip” sudah diberi batasan input berupa angka saja (client-side), jadi tidak perlu validasi lagi.  
-•	Tanggal boleh sama logika sudah sesuai sistem Anda.
+•	Tanggal boleh sama, logika sudah sesuai sistem Anda.
 
