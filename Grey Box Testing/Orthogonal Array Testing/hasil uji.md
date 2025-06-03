@@ -9,14 +9,11 @@ Test dijalankan berdasarkan fitur data pesanan yang bisa di akses dengan login a
 
 | Test Case | Jenis Kamar | Harga Kamar              | Lama Menginap |
 | --------- | ----------- | ------------------------ | ------------- |
-| TC1       | Standar     | < Rp 1.000.000           | 1 hari        |
-| TC2       | Standar     | Rp 1.000.000 – 2.000.000 | 2–3 hari      |
-| TC3       | Standar     | > Rp 2.000.000           | >3 hari       |
-| TC4       | Sedang      | < Rp 1.000.000           | 2–3 hari      |
-| TC5       | Sedang      | Rp 1.000.000 – 2.000.000 | >3 hari       |
-| TC6       | Sedang      | > Rp 2.000.000           | 1 hari        |
-| TC7       | Mewah       | < Rp 1.000.000           | >3 hari       |
-| TC8       | Mewah       | Rp 1.000.000 – 2.000.000 | 1 hari        |
-| TC9       | Mewah       | > Rp 2.000.000           | 2–3 hari      |
+| TC1       | Standar     | Rp 981.818,00            | 1 hari        |
+| TC2       | Standar     | Rp 1.137.190,00          | 2 hari        |
+| TC3       | Standar     | Rp 1.705.785,00          | 3 hari        |
+| TC4       | Sedang      | Rp 568.595,00            | 1 hari        |
+| TC5       | Sedang      | Rp 909.090,00            | 2 hari        |
+
 
 
