@@ -9,7 +9,7 @@ Test dijalankan berdasarkan fitur data pesanan yang bisa di akses dengan login a
 
 | Test Case | Jenis Kamar | Harga Kamar              | Lama Menginap |
 | --------- | ----------- | ------------------------ | ------------- |
-| TC1       | Standar     | Rp 981.818,00            | 1 hari        |
+| TC1       | Mewah       | Rp 981.818,00            | 1 hari        |
 | TC2       | Standar     | Rp 1.137.190,00          | 2 hari        |
 | TC3       | Standar     | Rp 1.705.785,00          | 3 hari        |
 | TC4       | Sedang      | Rp 568.595,00            | 1 hari        |
