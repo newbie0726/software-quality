@@ -6,4 +6,4 @@
 | TC04      | KELAS SUITE            | Lama          | Mahal  |
 | TC05      | KELAS DELUXE ROOM ONLY | Sebentar      | Murah  |
 
-![Hasil Uji](matrixtesting.png)
+![Hasil Uji](matrixtesting(2).png)
