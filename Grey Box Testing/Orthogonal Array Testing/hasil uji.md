@@ -13,7 +13,7 @@ Test dijalankan berdasarkan fitur data pesanan yang bisa di akses dengan login a
 | TC2       | Standar     | Rp 1.137.190,00          | 2 hari        |
 | TC3       | Standar     | Rp 1.705.785,00          | 3 hari        |
 | TC4       | Sedang      | Rp 568.595,00            | 1 hari        |
-| TC5       | Sedang      | Rp 909.090,00            | 2 hari        |
+| TC5       | Standar     | Rp 909.090,00            | 2 hari        |
 
 
 
