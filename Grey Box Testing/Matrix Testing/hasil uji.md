@@ -1,10 +1,10 @@
-| Test Case | Kelas Kamar            | Lama Menginap | Harga  |
-| --------- | ---------------------- | ------------- | ------ |
-| TC01      | KELAS SUITE            | Lama          | Mahal  |
-| TC02      | KELAS DELUXE ROOM ONLY | Sebentar      | Murah  |
-| TC03      | KELAS DELUXE           | Standar       | Sedang |
-| TC04      | KELAS SUITE            | Lama          | Mahal  |
-| TC05      | KELAS DELUXE ROOM ONLY | Sebentar      | Murah  |  
+| Test Case | Kelas Kamar            | Fasilitas     | Harga  | Durasi Bermalam |
+| --------- | ---------------------- | ------------- | ------ | --------------- |
+| TC01      | KELAS SUITE            | Mewah         | Mahal  | Sebentar        |
+| TC02      | KELAS DELUXE ROOM ONLY | Standar       | Murah  | Lama            |
+| TC03      | KELAS DELUXE           | Menengah      | Sedang | Lama            |
+| TC04      | KELAS SUITE            | Mewah         | Mahal  | Sebentar        |
+| TC05      | KELAS DELUXE ROOM ONLY | Standar       | Murah  | Lama            | 
 
 Hasil Uji berdasarkan fitur data pesanan yang di akses melalui login admin  
 
