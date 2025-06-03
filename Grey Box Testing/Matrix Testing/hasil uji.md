@@ -4,4 +4,10 @@
 | TC02      | KELAS DELUXE ROOM ONLY | Sebentar      | Murah  |
 | TC03      | KELAS DELUXE           | Standar       | Sedang |
 | TC04      | KELAS SUITE            | Lama          | Mahal  |
-| TC05      | KELAS DELUXE ROOM ONLY | Sebentar      | Murah  |
+| TC05      | KELAS DELUXE ROOM ONLY | Sebentar      | Murah  |  
+
+Hasil Uji berdasarkan fitur data pesanan yang di akses melalui login admin  
+
+Dokumentasi Data Pesanan :
+![Dokumentasi Hasil Uji](matrixtesting(2).png)  
+
