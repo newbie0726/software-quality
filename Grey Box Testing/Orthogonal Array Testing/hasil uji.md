@@ -15,4 +15,4 @@ Test dijalankan berdasarkan fitur data pesanan yang bisa di akses dengan login a
 | TC8       | Mewah       | Rp 1.000.000 – 2.000.000 | 1 hari        |
 | TC9       | Mewah       | > Rp 2.000.000           | 2–3 hari      |
 
-![Dokumentasi Hasil Uji](orthogonal.png)
+![Dokumentasi Hasil Uji](orthgonal.png)
