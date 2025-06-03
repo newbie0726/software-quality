@@ -5,3 +5,6 @@
 | TC03      | KELAS DELUXE           | Standar       | Sedang |
 | TC04      | KELAS SUITE            | Lama          | Mahal  |
 | TC05      | KELAS DELUXE ROOM ONLY | Sebentar      | Murah  |
+
+**Dokumentasi Hasil Uji**  
+![Dokumentasi Hasil Uji](Data Pesanan.png)
