@@ -1,7 +1,11 @@
 Test dijalankan berdasarkan fitur data pesanan yang bisa di akses dengan login admin  
 - Variabel Jenis kamar  
 - Variabel Harga Kamar  
-- Variabel lama menginap berdasarkan tanggal masuk dan keluar  
+- Variabel lama menginap berdasarkan tanggal masuk dan keluar
+
+![Dokumentasi Hasil Uji](orthgonal.png)  
+
+
 
 | Test Case | Jenis Kamar | Harga Kamar              | Lama Menginap |
 | --------- | ----------- | ------------------------ | ------------- |
@@ -15,4 +19,4 @@ Test dijalankan berdasarkan fitur data pesanan yang bisa di akses dengan login a
 | TC8       | Mewah       | Rp 1.000.000 – 2.000.000 | 1 hari        |
 | TC9       | Mewah       | > Rp 2.000.000           | 2–3 hari      |
 
-![Dokumentasi Hasil Uji](orthgonal.png)
+
