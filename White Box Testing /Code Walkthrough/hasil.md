@@ -1,4 +1,4 @@
-![bpath](./codinglogin.jpg)
+![bpath](./codinglogin.png)
 
 
 | Baris Kode | Potongan Kode                                                                                         | Penjelasan Walkthrough                                                                                   |
