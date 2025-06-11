@@ -1,3 +1,6 @@
+![bpath](./infokamar).png)
+
+
 | Test Case | Semua Field Terisi | Check-in ≤ Check-out | Tip hanya angka | Output (Sistem)             |
 | --------- | ------------------ | -------------------- | --------------- | --------------------------- |
 | TC1       | Ya                 | Ya                   | Ya              | Data terkirim ke admin      |
