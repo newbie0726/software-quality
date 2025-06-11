@@ -1,3 +1,6 @@
+![bpath](./codelogin)  
+
+
 | Baris Kode | Potongan Kode                                                                                         | Penjelasan Walkthrough                                                                                   |
 |------------|--------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 1–2        | <code>&lt;!DOCTYPE html&gt; &lt;html lang="en"&gt;</code>                                              | Mendefinisikan tipe dokumen dan bahasa yang digunakan pada halaman adalah bahasa Inggris.                |
@@ -11,3 +14,4 @@
 | 43         | <code>&lt;input class="btn btn-primary btn-block" type="submit" value="login"&gt;</code>               | Tombol untuk mengirim form login. Jika ditekan, data username dan password dikirim ke server.            |
 | 46         | <code>&lt;a class="d-block small" href="..."&gt;Forgot Password?&lt;/a&gt;</code>                      | Link untuk menuju ke halaman lupa password.                                                              |
 | 49–51      | <code>&lt;script src="vendor/jquery/jquery.min.js"&gt;</code> dan lainnya                              | JavaScript tambahan dari jQuery dan Bootstrap untuk interaksi halaman (misal: animasi, validasi UI).     |
+
