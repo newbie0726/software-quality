@@ -1,4 +1,4 @@
-![bpath](./infokamar).png)
+![bpath](./infokamar1.png)
 
 
 | Test Case | Semua Field Terisi | Check-in ≤ Check-out | Tip hanya angka | Output (Sistem)             |
