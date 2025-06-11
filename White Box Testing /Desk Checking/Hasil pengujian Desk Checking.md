@@ -1,3 +1,6 @@
+![bpath](./Deskcheking.png)
+
+
 | Step | Harga per Malam (Rp) | Durasi Menginap (malam) | Proses           | Output Total Harga (Rp) |
 |------|-----------------------|---------------------------|-------------------|--------------------------|
 | 1    | 981.818               | 3                         | 981.818 × 3       | 2.945.454                |
