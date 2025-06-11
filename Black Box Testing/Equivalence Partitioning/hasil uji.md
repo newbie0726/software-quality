@@ -1,3 +1,5 @@
+![bpath](./infokamar1.png)
+
 | Test Case | Deskripsi                                                   | Hasil Diharapkan                                       |
 | --------- | ----------------------------------------------------------- | ------------------------------------------------------ |
 | TC1       | Semua field diisi dengan valid (nama, tanggal, tip, alamat) | Pesanan langsung dikirim ke admin tanpa notifikasi     |
