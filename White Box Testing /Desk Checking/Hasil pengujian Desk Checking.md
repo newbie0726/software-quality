@@ -1,4 +1,4 @@
-![bpath](./Deskcheking.png)
+![bpath](./Deskcheking.png)  
 
 
 | Step | Harga per Malam (Rp) | Durasi Menginap (malam) | Proses           | Output Total Harga (Rp) |
