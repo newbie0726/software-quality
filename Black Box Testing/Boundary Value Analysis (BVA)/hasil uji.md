@@ -1,3 +1,6 @@
+![bpath](./infokamar.png)
+
+
 | Test Case | Input                                                                 | Diharapkan                                              | Status            |
 |-----------|-----------------------------------------------------------------------|----------------------------------------------------------|-------------------|
 | TC1       | Tanggal Check-in: 25 Mei 2025<br>Tanggal Check-out: 25 Mei 2025      | Valid (boleh sama)                                      | ✅                |
