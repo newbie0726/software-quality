@@ -3,7 +3,7 @@ Test dijalankan berdasarkan fitur data pesanan yang bisa di akses dengan login a
 - Variabel Harga Kamar  
 - Variabel lama menginap berdasarkan tanggal masuk dan keluar
 
-![Dokumentasi Hasil Uji](orthgonal.jpg)  
+![Dokumentasi Hasil Uji](orthogonal.jpg)  
 
 
 
