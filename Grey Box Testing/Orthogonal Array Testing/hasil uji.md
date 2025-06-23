@@ -47,22 +47,4 @@ Test dijalankan berdasarkan fitur data pesanan yang bisa di akses dengan login a
 | TC8  | Deluxe RO   | Sedang     | 1 hari  | Pilih “Deluxe Room Only”, harga 600K, durasi 1 hari                | Tombol aktif; total = 600K × 1                                          |
 | TC9  | Deluxe RO   | Murah      | 2 hari  | Pilih “Deluxe Room Only”, harga 300K, durasi 2 hari                | Tombol aktif; total = 300K × 2                                          |
 
----
 
-## Cara Update di GitHub
-
-1. **Buka** folder `Grey Box Testing/Orthogonal Array Testing/`.  
-2. **Edit** `hasil uji.md` (atau buat `orthogonal-array-test-cases.md`) dengan konten di atas.  
-3. **Commit & Push**:
-   ```bash
-   git checkout -b feature/update-orthogonal-array
-   git add Grey\ Box\ Testing/Orthogonal\ Array\ Testing/hasil\ uji.md
-   git commit -m "Complete Orthogonal Array Testing with L9 design"
-   git push origin feature/update-orthogonal-array
-
-| --------- | ----------- | ------------------------ | ------------- |
-| TC1       | Mewah       | Rp 981.818,00            | 1 hari        |
-| TC2       | Standar     | Rp 1.137.190,00          | 2 hari        |
-| TC3       | Standar     | Rp 1.705.785,00          | 3 hari        |
-| TC4       | Sedang      | Rp 568.595,00            | 1 hari        |
-| TC5       | Standar     | Rp 909.090,00            | 2 hari        |
