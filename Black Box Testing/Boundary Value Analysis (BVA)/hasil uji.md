@@ -1,3 +1,5 @@
+![bpath](./infokamar.png)
+
 # Boundary Value Analysis (BVA) – Test Cases
 
 | TC   | Field     | Input                                                    | Expected                                | Keterangan                   |
