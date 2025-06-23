@@ -9,7 +9,6 @@
 | TC3  | Check-in  | 26 & 25 Mei 2025                                         | Invalid (tidak bisa booking)            | Just-above boundary          |
 | TC4  | Check-in  | minimal allowed & minimal (contoh: 10 Jun 2024 & 10 Jun) | Valid                                   | Lower boundary sistem        |
 | TC5  | Check-in  | satu hari sebelum minimal (9 Jun 2024 & 10 Jun 2024)     | Invalid                                 | Just-below boundary          |
-| …    | …         | …                                                        | …                                       | …                             |
 | TC9  | Telepon   | `0812345678` (10 digit)                                  | Valid                                   | Lower bound                  |
 | TC10 | Telepon   | `081234567890123` (15 digit)                             | Valid                                   | Upper bound                  |
 | TC11 | Telepon   | `081234567` (9 digit)                                    | Invalid                                 | Just-below boundary          |
