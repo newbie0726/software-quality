@@ -47,17 +47,3 @@
 - **C2 (Tanggal)** = check-in tidak boleh melewati check-out.  
 - **C3 (Telepon)** = hanya mengizinkan digit (client-side filter).
 
----
-
-### Cara Update di GitHub
-
-1. **Edit File**  
-   - Buka `Black Box Testing/Decision Table Testing/hasil uji.md`.  
-   - Ganti konten lama dengan yang baru di atas (atau buat file baru `decision-table-test-cases.md`).  
-
-2. **Commit & Push**  
-   ```bash
-   git checkout -b feature/update-decision-table
-   git add Black\ Box\ Testing/Decision\ Table\ Testing/hasil\ uji.md
-   git commit -m "Revise and complete Decision Table test cases"
-   git push origin feature/update-decision-table
