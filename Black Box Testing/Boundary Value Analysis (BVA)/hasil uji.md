@@ -1,13 +1,19 @@
-![bpath](./infokamar.png)
+# Boundary Value Analysis (BVA) – Test Cases
 
+| TC   | Field     | Input                                                    | Expected                                | Keterangan                   |
+|------|-----------|----------------------------------------------------------|-----------------------------------------|-------------------------------|
+| TC1  | Check-in  | 25 Mei 2025 & 25 Mei 2025                                | Valid (boleh sama)                      | Lower bound                  |
+| TC2  | Check-in  | 24 & 25 Mei 2025                                         | Valid                                   | Nominal                      |
+| TC3  | Check-in  | 26 & 25 Mei 2025                                         | Invalid (tidak bisa booking)            | Just-above boundary          |
+| TC4  | Check-in  | minimal allowed & minimal (contoh: 10 Jun 2024 & 10 Jun) | Valid                                   | Lower boundary sistem        |
+| TC5  | Check-in  | satu hari sebelum minimal (9 Jun 2024 & 10 Jun 2024)     | Invalid                                 | Just-below boundary          |
+| …    | …         | …                                                        | …                                       | …                             |
+| TC9  | Telepon   | `0812345678` (10 digit)                                  | Valid                                   | Lower bound                  |
+| TC10 | Telepon   | `081234567890123` (15 digit)                             | Valid                                   | Upper bound                  |
+| TC11 | Telepon   | `081234567` (9 digit)                                    | Invalid                                 | Just-below boundary          |
+| TC12 | Telepon   | `0812345678901234` (16 digit)                            | Invalid                                 | Just-above boundary          |
+| TC13 | Telepon   | `abcdef`                                                 | Invalid / tidak muncul (filtered)       | Karakter non-angka           |
 
-| Test Case | Input                                                                 | Diharapkan                                              | Status            |
-|-----------|-----------------------------------------------------------------------|----------------------------------------------------------|-------------------|
-| TC1       | Tanggal Check-in: 25 Mei 2025<br>Tanggal Check-out: 25 Mei 2025      | Valid (boleh sama)                                      | ✅                |
-| TC2       | Tanggal Check-in: 26 Mei 2025<br>Tanggal Check-out: 25 Mei 2025      | Invalid (Check-in > Check-out) → Tidak bisa booking     | ❌ Perlu Validasi |
-| TC3       | Tlp (Nomor Telepon): 15 [digit](#)                                    | Valid                                                    | ✅                |
-| TC4       | Tlp: mengetik huruf                                                   | Tidak muncul di field (terfilter otomatis)              | ✅                |
-
-•	Field “Tip” sudah diberi batasan input berupa angka saja (client-side), jadi tidak perlu validasi lagi.  
-•	Tanggal boleh sama, logika sudah sesuai sistem Anda.
-
+**Catatan:**  
+- Sesuaikan `minimal`/`maksimal` tanggal dengan kebijakan sistem.  
+- Tandai hasil eksekusi (✅/❌) setelah pengujian manual otomatis.  
